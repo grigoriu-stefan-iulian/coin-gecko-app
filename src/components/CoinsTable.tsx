@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Table, Thead, Tbody, Tr, Th, Td, Collapse } from "@chakra-ui/react";
+import { Table, Thead, Tbody, Tr, Th, Td } from "@chakra-ui/react";
 
 import { getCoinById } from "../utils/get-coin-by-id";
 

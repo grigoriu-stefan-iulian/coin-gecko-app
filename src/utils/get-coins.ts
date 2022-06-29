@@ -1,5 +1,5 @@
 /**
- * Fetches first 10 Cryptocurrency ordered by market_cap_desc
+ * Fetches first 10 Cryptocurrencies ordered by market_cap_desc
  * @param {func} setCoinData - function to set the data retrieved in the CoinGecko component.
  */
 export const getCoins = async (setCoins: any): Promise<Array<string>> => {
