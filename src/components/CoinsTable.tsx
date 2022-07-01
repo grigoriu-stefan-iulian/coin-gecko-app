@@ -41,7 +41,7 @@ export const CoinsTable = ({ data }: any) => {
                 onClick={handleOnRowClick(item.id)}
               >
                 <Td>
-                  <img className="coin-image" src={item.image} alt="item.id" />
+                  <img className="coin-image" src={item.image} alt={item.id} />
                 </Td>
                 <Td>{item.name}</Td>
                 <Td>{item.symbol}</Td>
