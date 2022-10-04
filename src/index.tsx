@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { ChakraProvider } from "@chakra-ui/react";
 
-import { CoinGecko } from "./CoinGecko";
+import { AppRouter } from "./routes";
 
 import "./index.css";
 
@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <ChakraProvider>
     <React.StrictMode>
-      <CoinGecko />
+      <AppRouter />
     </React.StrictMode>
   </ChakraProvider>
 );

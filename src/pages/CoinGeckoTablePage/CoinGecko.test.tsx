@@ -1,9 +1,9 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import { CoinGecko } from "./CoinGecko";
+import { CoinGeckoTablePage } from "./CoinGeckoTablePage";
 
 test("renders learn react link", () => {
-  render(<CoinGecko />);
+  render(<CoinGeckoTablePage />);
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });

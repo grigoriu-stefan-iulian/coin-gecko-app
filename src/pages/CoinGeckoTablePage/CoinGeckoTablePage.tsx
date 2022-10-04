@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 
-import { getCoins } from "./utils/get-coins";
-import { CoinsTable } from "./components/CoinsTable";
+import { getCoins } from "../../utils/get-coins";
+import { CoinsTable } from "../../components/CoinsTable";
 
 import "./styles.css";
 
-export const CoinGecko = () => {
+export const CoinGeckoTablePage = () => {
   const [coins, setCoins] = useState<any>([]);
 
   useEffect(() => {
